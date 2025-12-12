@@ -1,53 +1,52 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/AboutUs.dart';
+import 'package:flutter_app/HomePage.dart';
+import 'package:flutter_app/Contact.dart';
 
 void main() {
   runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatefulWidget {
   const MyApp({super.key});
+  @override
+  State<MyApp> createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+  int variable = 0;
+  List<Widget> listWidget = const [
+    Text(
+      'Home Page',
+      textAlign: TextAlign.center,
+      style: TextStyle(fontSize: 30),
+    ),
+    Text(
+      'Favourite Page',
+      textAlign: TextAlign.center,
+      style: TextStyle(fontSize: 30),
+    ),
+    Text(
+      'Settings Page',
+      textAlign: TextAlign.center,
+      style: TextStyle(fontSize: 30),
+    ),
+  ];
+  List<String> pagesName = [
+    "assets/images/img_p.jpg",
+    "assets/images/Futurecar.jpeg",
+    "assets/images/car.jpg",
+  ];
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          elevation: 10,
-          title: Text('Facebook'),
-          centerTitle: true,
-          leading: IconButton(
-            onPressed: () {},
-            icon: Icon(
-              Icons.menu,
-              size: 35,
-              color: const Color.fromARGB(255, 58, 79, 232),
-            ),
-          ),
-
-          actions: [
-            IconButton(
-              onPressed: () {},
-              icon: Icon(
-                Icons.search,
-                size: 33,
-                color: Color.fromARGB(255, 58, 79, 232),
-              ),
-            ),
-
-            IconButton(
-              onPressed: () {},
-              icon: Icon(
-                Icons.message,
-                size: 33,
-                color: Color.fromARGB(255, 58, 79, 232),
-              ),
-            ),
-          ],
-        ),
-        body: Center(
-          child: Text("Welcome Youssef!👋", style: TextStyle(fontSize: 30)),
-        ),
-      ),
+      home: const HomePage(),
+      routes: {
+        "home": (context) => const HomePage(),
+        "about": (context) => const AboutUs(),
+        "contact": (context) => const Contact(),
+      },
     );
   }
 }
