@@ -4,12 +4,12 @@ A simple and clean Flutter Ecommerce UI Application that displays product catego
 
 🏠 Home Screen 
 
-<img src="assets/images/screenshots/Screenshot_1.jpg" width="300">
+<img src="assets/images/screenshots/Screenshot_1.png" width="300">
 
 🛍️ Product Details Screen 
 
-<img src="assets/images/screenshots/Screenshot_2.jpg" width="300">
-<img src="assets/images/screenshots/Screenshot_3.jpg" width="300">
+<img src="assets/images/screenshots/Screenshot_2.png" width="300">
+<img src="assets/images/screenshots/Screenshot_3.png" width="300">
 
  Features 
 
