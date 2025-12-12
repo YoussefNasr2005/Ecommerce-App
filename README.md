@@ -1,16 +1,54 @@
-# flutter_app
+ 🛒 Ecommerce App
 
-A new Flutter project.
+A simple and clean Flutter Ecommerce UI Application that displays product categories, best-selling items, and detailed product pages with color and size selection. The app uses a modern interface and smooth user experience.
 
-## Getting Started
+🏠 Home Screen 
 
-This project is a starting point for a Flutter application.
+<img src="assets/images/screenshots/Screenshot_1.jpg" width="300">
 
-A few resources to get you started if this is your first Flutter project:
+🛍️ Product Details Screen 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<img src="assets/images/screenshots/Screenshot_2.jpg" width="300">
+<img src="assets/images/screenshots/Screenshot_3.jpg" width="300">
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ Features 
+
+* Modern Home Screen UI
+* Product Categories Section
+* Best-Selling Products Grid
+* Product Details Page
+* Color Selection
+* Size Selection
+* Bottom Navigation Bar
+* Clean and simple design
+* Easy to customize
+
+ Tech Stack
+
+* Flutter
+* Dart
+* Material Design Widgets
+* ListView & GridView
+* Local Assets Management
+
+ 📂 Project Structure
+
+ lib/ 
+ ├── HomePage.dart
+ ├── itemDetails.dart
+ ├── CustomCard.dart
+ ├── AboutUs.dart
+ ├── Contact.dart
+
+assets/
+ └── images/
+ ▶️ Run the Project
+
+bash
+flutter pub get
+flutter run
+
+👨‍💻 Developer 
+
+Developed by Youssef Nasr 
+A simple Flutter UI practice project for Ecommerce applications.
