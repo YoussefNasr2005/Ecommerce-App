@@ -121,7 +121,7 @@ class _Itemsdetails extends State<Itemsdetails> {
                 height: 22,
                 width: 22,
                 decoration: BoxDecoration(
-                    color: Colors.blue,
+                    color: Colors.grey,
                     borderRadius: BorderRadius.circular(20),
                     border: Border.all(color: Colors.yellow)),
               ),
@@ -129,7 +129,7 @@ class _Itemsdetails extends State<Itemsdetails> {
                 width: 5,
               ),
               const Text(
-                'blue',
+                'Grey',
                 style: TextStyle(
                   fontSize: 20,
                 ),
@@ -150,6 +150,26 @@ class _Itemsdetails extends State<Itemsdetails> {
               ),
               const Text(
                 'black',
+                style: TextStyle(
+                  fontSize: 20,
+                ),
+              ),
+              const SizedBox(
+                width: 15,
+              ),
+              Container(
+                height: 22,
+                width: 22,
+                decoration: BoxDecoration(
+                  color: Colors.blue,
+                  borderRadius: BorderRadius.circular(20),
+                ),
+              ),
+              const SizedBox(
+                width: 5,
+              ),
+              const Text(
+                'blue',
                 style: TextStyle(
                   fontSize: 20,
                 ),

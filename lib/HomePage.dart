@@ -11,32 +11,32 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   final List categories = [
     {
-      "CategorieName": Icons.shop,
-      "title": "shop",
+      "CategorieName": Icons.phone_android_outlined,
+      "title": "Phones",
     },
     {
-      "CategorieName": Icons.business_sharp,
-      "title": "Business",
+      "CategorieName": Icons.laptop,
+      "title": "Laptops",
     },
     {
-      "CategorieName": Icons.holiday_village_rounded,
-      "title": "Holiday",
+      "CategorieName": Icons.bike_scooter,
+      "title": "Bikes",
     },
     {
-      "CategorieName": Icons.store,
-      "title": "Store",
+      "CategorieName": Icons.card_giftcard_rounded,
+      "title": "Gifts",
     },
     {
-      "CategorieName": Icons.home_work,
-      "title": "Home work",
+      "CategorieName": Icons.book_sharp,
+      "title": "Learning",
     },
     {
       "CategorieName": Icons.bed_outlined,
-      "title": "Beds",
+      "title": "Furnitures",
     },
     {
-      "CategorieName": Icons.wifi_tethering_error_rounded_sharp,
-      "title": "Sharing",
+      "CategorieName": Icons.theater_comedy_sharp,
+      "title": "Entertainment",
     },
   ];
 
@@ -45,27 +45,28 @@ class _HomePageState extends State<HomePage> {
       "photo": "assets/images/HandWatch.png",
       "title": "Hand Watch",
       "subtitle": "Classic silver watch",
-      "price": "\$30",
+      "price": "\$120",
+    },
+    {
+      "photo": "assets/images/Furniture.png",
+      "title": "Furnitures",
+      "subtitle": "Comfortable Furniture",
+      "price": "\$600",
+    },
+    {
+      "photo": "assets/images/Gifts.png",
+      "title": "Gifts",
+      "subtitle": "Special gift box",
+      "price": "\$50",
     },
     {
       "photo": "assets/images/Headphone.png",
       "title": "Head Phone",
       "subtitle": "Gaming Headphone",
-      "price": "\$20",
-    },
-    {
-      "photo": "assets/images/HandWatch.png",
-      "title": "Hand Watch",
-      "subtitle": "Classic silver watch",
-      "price": "\$30",
-    },
-    {
-      "photo": "assets/images/Headphone.png",
-      "title": "Head Phone",
-      "subtitle": "Gaming Headphone",
-      "price": "\$20",
+      "price": "\$80",
     },
   ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
